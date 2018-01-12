@@ -1,0 +1,32 @@
+{
+  "name": "toflush",
+  "version": "1.0.0",
+  "description": "Process an entire object mode stream in a single function call.",
+  "main": "toflush.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeMan99/toflush.git"
+  },
+  "keywords": [
+    "async",
+    "flush",
+    "object",
+    "pipe",
+    "promise",
+    "stream",
+    "through",
+    "transform"
+  ],
+  "author": "Cody A. Taylor <codemister99@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeMan99/toflush/issues"
+  },
+  "homepage": "https://github.com/CodeMan99/toflush#readme",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
