@@ -1,4 +1,4 @@
-# toflush
+# toflush [![Build Status](https://travis-ci.org/CodeMan99/toflush.svg?branch=master)](https://travis-ci.org/CodeMan99/toflush)
 
 Transform on Flush. Process an entire object mode stream in a single
 function call.
