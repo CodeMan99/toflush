@@ -96,7 +96,9 @@ test('map items, sync', t => {
 			m = item.color.match(hexColor);
 
 			if (m) {
-				[_, r, g, b] = m;
+				r = m[1];
+				g = m[2];
+				b = m[3];
 				item.rgb = `rgb(${parseInt(r, 16)}, ${parseInt(g, 16)}, ${parseInt(b, 16)})`;
 			} else {
 				throw new Error('incorrect color format, use #000000 style');
