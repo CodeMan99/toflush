@@ -28,7 +28,7 @@ May have a asynchronous, Promise returning, callback.
 
           throw new Error(`${response.status} ${response.statusText}`);
         });
-      })
+      }))
       .on('error', error => /* handle fetch or response error */)
       .pipe(fs.createWriteStream('./first.png'));
 
