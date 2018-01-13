@@ -73,6 +73,7 @@ taking advantage of the improved `stream.Transform` implementation.
  * [vinyl][] - virtual file format, used heavily by `gulp`.
  * [get-stream][] - get stream as a string, buffer, or array.
  * [through2][] - older general stream utility. Heavily inspired this project.
+ * [vinyl-map][] - vinyl specific tool, processing only file contents.
 
 ## License
 
@@ -81,3 +82,4 @@ MIT &copy; Cody A. Taylor 2018
 [vinyl]: https://github.com/gulpjs/vinyl "gulpjs/vinyl"
 [get-stream]: https://github.com/sindresorhus/get-stream "sindresorhus/get-stream"
 [through2]: https://github.com/rvagg/through2 "rvagg/through2"
+[vinyl-map]: https://github.com/affirmix/vinyl-map "affirmix/vinyl-map"
